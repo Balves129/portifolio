@@ -4,7 +4,7 @@ body{
     width: 100vw;
     height: 40vh;
     font-family: 'Open Sans';
-    background-image:linear-gradient(to bottom, #2c3e50,#836FFF) ;
+    background-image:linear-gradient(to bottom, #196c7a,#3f9af0) ;
     overflow-x: hidden;
 }
 .borda .titulos{
@@ -123,35 +123,100 @@ a:hover{
     left: 20px;
     
 }
-span{
-    display: flex;
-    font-size: 40px;  
-    position: relative;
-    top: 110px;  
-    left: 60px;
-    opacity: 0.6;
-}
-.section{
-    width: 110vw;
-    height: 60vh;
-    background-color: #4c4a99;
+
+#section2{
+    width: 410vw;
+    height: 500px;
     font-size: 50px;
-    color: #ffffff;
+    text-align: center;
+    margin: 10px 5px;
+    position: absolute;
+    top: 848px;
+    right: -750px;
+    background-color:#336288;
+}
+#section3{
+    width: 410vw;
+    height: 500px;
+    font-size: 50px;
     text-align: center;
     margin: 10px 5px;
     position: relative;
-    top: 786px;
+    top: 81rem;
     right: 756px;
-    
+    background-color: #264a68;  
 }
-.habilidade{
+.habilidades h1{
+    font-size: 40px;
+    position: relative;
+    left: 2rem;
+    font-family: 'Teko';
+    justify-items: center;
+}
+.habilidades h2{
+    display: flex;
+    font-size: 32px;  
+    position: relative;
+    top: 160px;  
+    margin-right: 2rem;
+    right: 130px;
+}
+.Sobre{
     display: flex;
     justify-content: flex-start;
     position: relative;
-    bottom: -110px;   
+    bottom: -141px;   
 }
-.habilidade h1{
+.Sobre h1{
     font-size: 40px;
     position: relative;
-    left: 840px;
+    left: 94rem;
+    font-family: 'Teko';
+    justify-items: center;
+}
+.Sobre h2{
+    display: flex;
+    font-size: 32px;  
+    position: relative;
+    top: 110px;  
+    margin-right: 2rem;
+    
+}
+span{
+    display: flex;
+    font-size: 32px;  
+    position: relative;
+}
+/* scroll */
+::-webkit-scrollbar{
+    width: 20px;
+    height: 20px;
+}
+::-webkit-scrollbar-thumb{
+    background: linear-gradient(to bottom, #34495e,#2c3e50);
+    border-radius: 50px;
+}
+::-webkit-scrollbar-track{
+    background: #474747;
+}
+/*  */
+
+.habilidades{
+    display: flex;
+    justify-content: flex-start;
+    position: relative;
+    bottom: -396px; 
+}
+.habilidades h1{
+    display: flex;
+    font-size: 32px;  
+    position: relative;
+    top: 110px;  
+    margin-right: 2rem;
+}
+.section{
+    background-color: #ffffff;
+    position: relative;
+    top: 100px;
+    
 }
